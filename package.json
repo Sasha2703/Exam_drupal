@@ -1,0 +1,23 @@
+{
+  "name": "drupal9",
+  "version": "1.0.0",
+  "description": "This is a sample Drupal 9 with Composer installation pre-configured for use with Docksal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sasha2703/Exam_drupal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sasha2703/Exam_drupal/issues"
+  },
+  "homepage": "https://github.com/Sasha2703/Exam_drupal#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "sass": "^1.49.0"
+  }
+}
