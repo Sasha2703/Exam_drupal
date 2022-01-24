@@ -26,7 +26,8 @@
   .navbar-collapse .region-navigation-collapsible {
     margin-top: 26px; }
     .navbar-collapse .region-navigation-collapsible .contextual-region .navbar-nav {
-      margin-right: 40px; }
+      margin-right: 40px;
+      float: right; }
       .navbar-collapse .region-navigation-collapsible .contextual-region .navbar-nav li {
         font-size: 12px;
         padding: 10px 0; }
