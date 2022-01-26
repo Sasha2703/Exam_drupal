@@ -55,8 +55,9 @@
 }
 
 .navbar-text {
-  margin-top: 0;
-  font-size: 20px;
+  margin-top: 28px;
+  font-size: 14px;
+  margin-left: -123px;
 }
 
 .header_block {
@@ -64,6 +65,7 @@
   flex-direction: column;
   height: 109px;
   width: 227px;
+  background-color: #0c0d0e;
 
   .navbar-brand {
     font-size: 36px;
