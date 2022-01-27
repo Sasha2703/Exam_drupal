@@ -1,0 +1,223 @@
+.block-views-blockprojects-block-1 {
+  .block-title {
+    margin-bottom: 21px;
+    text-transform: uppercase;
+
+    &:before, &:after {
+      background-color: #cfcfcf;
+      content: '';
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 27%;
+    }
+
+    &::before {
+      right: 0.5em;
+      margin-left: -50%;
+    }
+
+    &::after {
+      left: 0.5em;
+      margin-right: -50%;
+    }
+  }
+
+  .form-group {
+    background: repeating-linear-gradient(-45deg, grey, #fff 1px, #fff 8px);
+    padding-top: 69px;
+
+    .view-display-id-block_1 {
+      .view-content {
+        .views-view-grid {
+          .views-row {
+            column-gap: 28px;
+
+            .views-col {
+              border-bottom: 1px solid #5a5965;
+              background-color: white;
+              padding: 0;
+              margin-right: 20px;
+              max-width: 290px;
+
+
+              .views-field-title {
+                margin-top: 30px;
+                display: flex;
+
+                .field-content {
+                  margin: auto;
+
+                  a {
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: #464452;
+                  }
+                }
+              }
+
+              .views-field-field-project-image {
+                .field-content {
+                  img {
+                    width: 100%;
+                  }
+                }
+              }
+
+              .views-field-field-project-taxonomy {
+                display: flex;
+
+                .field-content {
+                  margin: 6px auto 20px;
+
+                  a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                  }
+
+                  a[href="/taxonomy/term/4"] {
+                    color: #58cab2;
+                  }
+
+                  a[href="/taxonomy/term/2"] {
+                    color: #995db1;
+                  }
+
+                  a[href="/taxonomy/term/3"] {
+                    color: #e65047;
+                  }
+
+                  a[href="/taxonomy/term/1"] {
+                    color: #65c0e5;
+                  }
+                }
+              }
+
+              .views-field-field-project-link {
+                display: flex;
+
+                .field-content {
+                  margin: 0 auto 10px auto;
+                  display: flex;
+                  width: 71px;
+                  height: 30px;
+                  background-color: #3a3946;
+
+                  a {
+                    margin: auto;
+                    text-transform: uppercase;
+                    color: white;
+                    text-decoration: none;
+                  }
+
+                }
+
+                .field-content:hover {
+                  opacity: 0.7;
+                }
+              }
+            }
+            .card:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+
+      .pager-nav {
+        margin: 27px auto 127px;
+
+        .pagination {
+          .pager__item {
+            a {
+              border-width: 0;
+              color: #555555;
+              background-color: rgba(0, 0, 0, 0);
+            }
+          }
+
+          .is-active {
+            a {
+              background-color: #cecece;
+              border-radius: 50%;
+              border-width: 0;
+              color: #555555;
+            }
+
+            a:active {
+              font-weight: 700;
+            }
+          }
+
+
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 1200px) {
+  .view-display-id-block_1 {
+    .view-content {
+      .views-view-grid {
+        .card-deck {
+          .card {
+            width: 25%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .block-views-blockprojects-block-1 {
+    .form-group {
+      .view-display-id-block_1 {
+        .view-content {
+          .views-view-grid {
+            .card-deck {
+              .card {
+                width: auto;
+                margin-bottom: 20px;
+                box-shadow: 3px 5px 16px grey;
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1239px) {
+  .block-views-blockprojects-block-1 {
+    .form-group {
+      .view-display-id-block_1 {
+        .view-content {
+          .views-view-grid {
+            .card-deck {
+              .card {
+                width: 223px;
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 444px) {
+  .block-views-blockprojects-block-1 {
+    .block-title {
+      &:before, &:after {
+        width: 20%;
+      }
+    }
+  }
+}
