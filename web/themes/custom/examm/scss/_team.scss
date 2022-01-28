@@ -71,17 +71,28 @@
               }
 
               .block-extra-field-blocknodeour-teamflag-like {
-                display: flex;
+                float: right;
+                margin-top: -22px;
+                margin-right: 50px;
 
-                .flag-like {
-                  margin: 23px 53px 0 auto;
-
-                  a {
-                    text-decoration: none;
-                  }
+                .action-unflag {
+                  background-image: url("../images/heart-inactive.png");
+                    display: block;
+                    height: 15px;
+                    width: 16px;
+                    font-size: 10px;  a{ opacity: 0;
                 }
-              }
+                }
 
+                .action-flag {
+                    background-image: url("../images/heart-active.png");
+                    display: block;
+                    height: 15px;
+                    width: 16px;
+                    font-size: 10px;  a{ opacity: 0;
+                }
+                  }
+              }
               .views-field-nothing {
                 display: flex;
 
@@ -102,7 +113,7 @@
   }
 }
 
-.block-views-blockteam-block-1 {
+.block-views-blockour-team-block-1 {
   .block-title {
     margin: 95px auto 30px auto;
     font-size: 34px;
