@@ -102,7 +102,7 @@
 .main-container {
   .region-content {
     .views-element-container {
-      .view-display-id-page_1 {
+      .view-display-id-page_10 {
         .view-content {
           flex-direction: column;
           .views-row {
@@ -125,19 +125,19 @@
 
 
 @media (max-width: 1561px) {
-  .block-views-blockservices-block-1 {
+  .block-views-blockservices--block-10 {
     width: 80%;
   }
 }
 
 @media (max-width: 1300px) {
-  .block-views-blockservices-block-1 {
+  .block-views-blockservices--block-10 {
     width: auto;
   }
 }
 
 @media (max-width: 1199px) {
-  .block-views-blockservices-block-1 {
+  .block-views-blockservices--block-10 {
     width: auto;
 
     .form-group {
@@ -155,13 +155,13 @@
 }
 
 @media (max-width: 1030px) {
-  .block-views-blockservices-block-1 {
+  .block-views-blockservices--block-10 {
     width: auto;
   }
 }
 
 @media (max-width: 991px) {
-  .block-views-blockservices-block-1 {
+  .block-views-blockservices--block-10 {
     .block-title {
       &:before, &:after {
         width: 27%;
@@ -169,7 +169,7 @@
     }
 
     .form-group {
-      .view-display-id-block_1 {
+      .view-display-id-block_10 {
         .view-content {
           .views-view-grid {
             .card-deck {
@@ -185,7 +185,7 @@
 }
 
 @media (max-width: 444px) {
-  .block-views-blockservices-block-1 {
+  .block-views-blockservices-block-10 {
     .block-title {
       &:before, &:after {
         width: 20%;
