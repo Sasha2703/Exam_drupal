@@ -94,6 +94,24 @@
   }
 }
 
+.region-content {
+  padding-left: 10px;
+  .block-field-blocknodeaboutbody-basicbody {
+    padding-left: 10px;
+
+    .field--type-text-with-summary {
+      padding-left: 10px;
+
+      p {
+        font-size: 19px;
+        text-indent: 1.5em;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+
 @media (max-width: 1242px) {
   .block-views-blockabout-block-1 {
     .form-group {
