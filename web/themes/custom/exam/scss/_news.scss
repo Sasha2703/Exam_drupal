@@ -1,0 +1,372 @@
+.block-views-blocknews-block-1 {
+  .block-title {
+    margin-top: 191px;
+    margin-bottom: 22px;
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    &:before, &:after {
+      background-color: #cfcfcf;
+      content: '';
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 28%;
+    }
+
+    &::before {
+      right: 0.5em;
+      margin-left: -50%;
+    }
+
+    &::after {
+      left: 0.5em;
+      margin-right: -50%;
+    }
+  }
+
+  .form-group {
+    background: repeating-linear-gradient(-45deg, grey, #fff 1px, #fff 8px);
+
+    .view-filters {
+      width: 1254px;
+      margin: 21px auto 15px;
+
+      .views-exposed-form {
+        .control-label {
+          display: none;
+        }
+
+        .form-text {
+          width: 340px;
+        }
+      }
+    }
+
+    .view-content {
+      width: 1258px;
+      margin-bottom: 80px;
+
+      .views-view-grid {
+        .card-deck {
+          display: flex;
+
+          .card {
+            background-color: white;
+            padding: 20px 17px;
+            width: 50%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 28px;
+
+            .views-field-created {
+              display: flex;
+
+              span {
+                margin: -13px 0 0 -12px;
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+
+                p:first-child {
+                  font-size: 23px;
+                  margin: -1px 0 -17px 0;
+                  text-transform: uppercase;
+                  color: grey;
+                  font-weight: 200;
+                }
+
+                p {
+                  font-size: 44px;
+                  font-weight: 600;
+                  color: #7498c8;
+                }
+
+                p:last-child {
+                  margin: -20px auto 0;
+                  font-size: 12px;
+                  color: lightgrey;
+                }
+              }
+            }
+
+            .views-field-fieldset {
+              padding-left: 20px;
+              border-left: 1px solid #cfcfcf;
+              margin: -82px 0 0 48px;
+
+              fieldset {
+                display: flex;
+                margin-top: -6px;
+
+                .views-field-field-picture11 {
+                  margin-top: 6px;
+
+                  .field-content {
+                    img {
+                      width: 78px;
+                      height: 78px;
+                      margin-bottom: 12px;
+                    }
+                  }
+                }
+
+                .views-field-field-proffesion {
+                  text-transform: uppercase;
+                  color: lightgray;
+                  margin-left: 12px;
+                  font-size: 13px;
+                  letter-spacing: -0.8px;
+                }
+
+                .views-field-field-name {
+                  text-transform: uppercase;
+                  margin-left: 4px;
+                  font-size: 13px;
+                  letter-spacing: -0.8px;
+                }
+
+                .views-field-field-term3 {
+                  margin-left: 4px;
+                  font-size: 13px;
+
+                  a {
+                    letter-spacing: -0.8px;
+                  }
+                }
+
+                .views-field-created-1 {
+                  margin-left: auto;
+                  font-size: 13px;
+                  color: #cfcfcf;
+
+                  .field-content {
+                    text-transform: uppercase;
+
+                  }
+                }
+              }
+            }
+
+            .views-field-fieldset-1 {
+              margin: 23px 0 17px 48px;
+              border-left: 1px solid #cfcfcf;
+              padding-left: 20px;
+
+              .field-content {
+                fieldset {
+                  .views-field-view-node {
+                    .field-content {
+                      margin: -6px 0 0 auto;
+                      background-color: #3a3847;
+                      width: 99px;
+                      height: 30px;
+                      display: flex;
+
+                      a {
+                        margin: auto;
+                        text-transform: uppercase;
+                        color: white;
+                        text-decoration: none;
+                      }
+                    }
+
+                    .field-content:hover {
+                      opacity: 0.7;
+                    }
+                  }
+
+                  .views-field-body {
+                    .field-content {
+                      p {
+                        margin: -4px auto 17px;
+                        color: #3a3847;
+                        font-size: 11px;
+                        text-transform: uppercase;
+                        text-align: justify;
+                      }
+                    }
+                  }
+
+                }
+              }
+
+            }
+
+            .views-field-field-title-news {
+
+              .field-content {
+                text-transform: uppercase;
+                font-size: 24px;
+                margin-bottom: 13px;
+                color: #3a3847;
+              }
+            }
+
+            .views-field-field-term3 {
+              .field-content {
+                text-transform: uppercase;
+
+                a {
+                  text-decoration: none;
+                  font-size: 12px;
+
+                }
+              }
+            }
+
+            .views-field-view-node {
+              display: flex;
+
+              .field-content {
+                margin-left: auto;
+              }
+            }
+
+            .views-field-body {
+              p {
+                color: #3a3847;
+                font-size: 11px;
+
+              }
+            }
+
+          }
+
+          .card:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+  .block-views-blocknews-block-1 {
+    .form-group {
+      .view-id-news {
+        .view-filters {
+          width: auto;
+          margin: 21px auto 15px 7px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .block-views-blocknews-block-1 {
+    .form-group {
+      .view-id-news {
+        .view-filters {
+          width: auto;
+          margin: 11px auto;
+
+          .views-exposed-form {
+            .form-item-field-title-news-value {
+              input {
+                width: 300px;
+              }
+            }
+
+            .form-actions {
+              display: flex;
+
+              button {
+                margin: 0 0 0 auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .block-views-blocknews-block-1 {
+    .block-title {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media (max-width: 1258px) {
+  .block-views-blocknews-block-1 {
+    .form-group {
+      .view-content {
+        width: auto;
+        margin: 0 20px;
+
+        .views-view-grid {
+          .card-deck {
+            display: flex;
+            flex-direction: column;
+
+            .card {
+              margin: 0 auto 20px;
+              height: auto;
+              box-shadow: 3px 5px 16px grey;
+            }
+
+            .card:last-child {
+              margin: 0 auto 20px;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 985px) {
+  .block-views-blocknews-block-1 {
+    .form-group {
+      .view-content {
+        .views-view-grid {
+          .card-deck {
+            .card {
+              fieldset {
+                flex-direction: column;
+
+                .views-field-field-proffesion {
+                  margin-left: 0;
+                }
+
+                .views-field-created-1 {
+                  margin: -147px 0 134px auto;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 636px) {
+  .block-views-blocknews-block-1 {
+    .form-group {
+      .view-content {
+        margin: 0 auto;
+        .views-view-grid {
+          .card-deck {
+            .card {
+              width: 300px;
+            }
+
+            .card:last-child {
+              width: 300px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
