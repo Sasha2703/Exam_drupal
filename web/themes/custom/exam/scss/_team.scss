@@ -82,10 +82,26 @@
 
                 .field-content {
                   margin: 23px 53px 0 auto;
-
-                  a {
-                    text-decoration: none;
+                  .action-unflag {
+                    background-image: url("../images/heart-inactive.png");
+                    display: block;
+                    height: 15px;
+                    width: 16px;
+                    font-size: 10px;
+                    a{ opacity: 0;}
                   }
+
+
+                  .action-flag {
+                    background-image: url("../images/heart-active.png");
+                    display: block;
+                    height: 15px;
+                    width: 16px;
+                    font-size: 10px;  a{ opacity: 0;}
+                  }
+                  //a {
+                  //  text-decoration: none;
+                  //}
                 }
               }
 
