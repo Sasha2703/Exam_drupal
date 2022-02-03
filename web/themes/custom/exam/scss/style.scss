@@ -24,6 +24,12 @@ body {
 
 .views-row {
   display: flex;
+  .views-field-title{
+    .field-content{
+      font-size: 30px;
+
+    }
+  }
 }
 
 .fa-twitter {
